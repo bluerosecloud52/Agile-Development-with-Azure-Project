@@ -1,28 +1,28 @@
 #!/usr/bin/env bash
 
-PORT=443
+PORT=5000
 echo "Port: $PORT"
 
 # POST method predict
-curl -d '{
-   "CHAS":{
+curl -d '{  
+   "CHAS":{  
       "0":0
    },
-   "RM":{
+   "RM":{  
       "0":6.575
    },
-   "TAX":{
+   "TAX":{  
       "0":296.0
    },
-   "PTRATIO":{
+   "PTRATIO":{  
       "0":15.3
    },
-   "B":{
+   "B":{  
       "0":396.9
    },
-   "LSTAT":{
+   "LSTAT":{  
       "0":4.98
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://udacityproject2webapp.azurewebsites.net:$PORT/predict
+     -X POST http://localhost:$PORT/predict
