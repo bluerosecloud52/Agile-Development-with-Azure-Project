@@ -36,7 +36,7 @@ stages:
     steps:
     - task: UsePythonVersion@0
       inputs:
-        versionSpec: '$(pythonVersion)'
+        versionSpec: 3.10.13
         addToPath: true
         architecture: 'x64'
       displayName: 'Use Python $(pythonVersion)'
