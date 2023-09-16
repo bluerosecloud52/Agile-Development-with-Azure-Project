@@ -39,7 +39,7 @@ stages:
         versionSpec: '$(pythonVersion)'
         disableDownloadFromRegistry: true
         addToPath: true
-        architecture: 'x64'
+        architecture: 'x86'
       displayName: 'Use Python $(pythonVersion)'
 
     - script: |
