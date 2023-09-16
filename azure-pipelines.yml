@@ -35,9 +35,9 @@ stages:
       vmImage: $(vmImageName)
     steps:
     - script: |
-        python -m venv antenv
+        python3.10 -m venv antenv
         source antenv/bin/activate
-        python -m pip install --upgrade pip
+        python3.10 -m pip install --upgrade pip
         pip install setup
         pip install -r requirements.txt
       workingDirectory: $(projectRoot)
