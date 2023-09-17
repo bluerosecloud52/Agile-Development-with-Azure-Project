@@ -10,8 +10,8 @@ After planning the different steps regarding the deployment of a Python Flask Ma
 
 The planning tool I used are Trello, an Atlassian Todo list, and a Google Spreadsheets.
 
-* [Trello dashboard]([https://trello.com/b/N4n2WxWE/udacity-azure-devops-project-2](https://trello.com/b/N4n2WxWE/udacity-azure-devops-project-2))
-* [Google Spreadsheets]([https://docs.google.com/spreadsheets/d/1c9QQ_uZhxDJftm1akvgTQ2NzjPdrvcYQ4beOr9RbZg0/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1Kv1vonE-MuSU7amWQNV-moV5VgOaDDU7aGe3xnV3Gbc/edit?usp=sharing))
+* [Trello dashboard](https://trello.com/b/N4n2WxWE/udacity-azure-devops-project-2)
+* [Google Spreadsheets](https://docs.google.com/spreadsheets/d/1Kv1vonE-MuSU7amWQNV-moV5VgOaDDU7aGe3xnV3Gbc/edit?usp=sharing)
 
 Azure Cloud Shell
 
@@ -27,7 +27,7 @@ Azure CD
 
 Architecture Diagram
 
-![Diagram](https://github.com/bluerosecloud52/Agile-Development-with-Azure-Project/raw/main/screenshots/12-architecture-diagram.png)
+![Diagram](https://github.com/bluerosecloud52/Agile-Development-with-Azure-Project/raw/main/screenshots/10-architecture-diagram.png)
 
 # Instructions
 
